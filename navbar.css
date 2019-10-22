@@ -1,0 +1,45 @@
+@media (min-width: 600px) {
+
+ body {
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+nav {
+    background-color: #551A8B;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    padding: 5px;
+}
+
+span {
+    list-style-type: none;
+    justify-content: flex-end;
+}
+
+header>nav>span.title {
+    padding: 8px;
+}
+
+.title {
+    flex: 3;
+    margin: 15px;
+}
+ 
+.links {
+    justify-content: space-around;
+    flex: 1;
+    flex-direction: row;
+}
+
+
+}
